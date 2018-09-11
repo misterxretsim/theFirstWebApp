@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Угадай-ка!</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+
+	</head>
+	<body>
+
+		<div id="main">
+	
+		
+			<div class="DivStart" align=center>
+
+				<a id="start">Начать игру!</a>
+			</div>
+		
+				
+			<div id="confetti"></div>
+		
+
+			<div class="Numbers" align=center>
+
+				<a href="#" class="ButtonNumber" id="1">1</a>
+				<a href="#" class="ButtonNumber" id="2">2</a>
+				<a href="#" class="ButtonNumber" id="3">3</a>
+				<a href="#" class="ButtonNumber" id="4">4</a>
+				<a href="#" class="ButtonNumber" id="5">5</a>
+				<a href="#" class="ButtonNumber" id="6">6</a>
+				<a href="#" class="ButtonNumber" id="7">7</a>
+				<a href="#" class="ButtonNumber" id="8">8</a>
+				<a href="#" class="ButtonNumber" id="9">9</a>
+				<a href="#" class="ButtonNumber" id="10">10</a>
+				<br/>
+				<br/>
+				<a href="#" class="ButtonNumber" id="11">11</a>
+				<a href="#" class="ButtonNumber" id="12">12</a>
+				<a href="#" class="ButtonNumber" id="13">13</a>
+				<a href="#" class="ButtonNumber" id="14">14</a>
+				<a href="#" class="ButtonNumber" id="15">15</a>
+				<a href="#" class="ButtonNumber" id="16">16</a>
+				<a href="#" class="ButtonNumber" id="17">17</a>
+			
+				<br/>
+
+				<div id="close" align=center>
+				
+					<a id="buttonClose">Закрыть</a>
+				
+				</div>
+				
+			</div>
+
+			<br/>
+			
+			<div class="Row">
+			
+				<div class="LeftMenu">
+
+						<form id="formId">
+
+							<p id="chooseAlg"><b class="SimpleText">Выберите алгоритм угадывания числа:</b></p><br/>
+							<p><input class="InputRadio" type="radio" name="browser" value="1" checked="checked" /><a class="SimpleText">Примитивный</a></p>
+							<p><input class="InputRadio" type="radio" name="browser" value="2" /><a class="SimpleText">Продвинутый</a></p>
+							<p><input class="InputRadio" type="radio" name="browser" value="3" /><a class="SimpleText">Читерский</a></p>
+
+						</form>
+				
+				</div>
+				
+				
+				<div class="RightMenu">
+
+					<br/>
+
+					<div id="chooseNum">
+
+						<b class="SimpleText">Введите</b><br/><b class="SimpleText">число:</b>
+					</div>
+
+					<br/><br/><br/>
+
+					<input id="inputNum" type="number" value=""><br/><br/>
+					<a id="buttonGuess">Угадать!</a>
+
+				
+				</div>
+
+			</div>
+			
+			<br/>
+			<br/>
+			<br/>
+
+			<div align="center">
+				<a id="buttonShow"><p id="changeText">Показать диалоговое окно</p></a>
+			</div>
+			
+			
+			<div class="DivTextArea">
+
+				<div id="theFirstArea"><textarea title="Ответы" id="textFromFirst" disabled=disabled class="TextAreas"></textarea></div>
+				<div id="theSecondArea"><textarea title="Действия" id="textFromSecond" disabled=disabled class="TextAreas"></textarea></div>
+				
+			</div>
+			<i title="Очистить поля" class="fas fa-broom" id="broom"></i>
+			
+		</div>
+		
+	</body>
+
+</html>
+
+
