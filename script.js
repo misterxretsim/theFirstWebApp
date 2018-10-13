@@ -198,74 +198,11 @@ $('document').ready(function(){
 	}
 
 
-	//кнопки от 1 до 17 из первого меню
-	$('#1').on('click', function(){
+	//нажатие на кнопки 1-17 из первого меню
+	$('.ButtonNumber').on('click', function(){
 
-		clickButtons(1);
-	});
-	$('#2').on('click', function(){
-
-		clickButtons(2);
-	});
-	$('#3').on('click', function(){
-
-		clickButtons(3);
-	});
-	$('#4').on('click', function(){
-
-		clickButtons(4);
-	});
-	$('#5').on('click', function(){
-
-		clickButtons(5);
-	});
-	$('#6').on('click', function(){
-
-		clickButtons(6);
-	});
-	$('#7').on('click', function(){
-
-		clickButtons(7);
-	});
-	$('#8').on('click', function(){
-
-		clickButtons(8);
-	});
-	$('#9').on('click', function(){
-
-		clickButtons(9);
-	});
-	$('#10').on('click', function(){
-
-		clickButtons(10);
-	});
-	$('#11').on('click', function(){
-
-		clickButtons(11);
-	});
-	$('#12').on('click', function(){
-
-		clickButtons(12);
-	});
-	$('#13').on('click', function(){
-
-		clickButtons(13);
-	});
-	$('#14').on('click', function(){
-
-		clickButtons(14);
-	});
-	$('#15').on('click', function(){
-
-		clickButtons(15);
-	});
-	$('#16').on('click', function(){
-
-		clickButtons(16);
-	});
-	$('#17').on('click', function(){
-
-		clickButtons(17);
+		var id = $(this).attr('id');
+		clickButtons(id);
 	});
 		
 
